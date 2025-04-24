@@ -1,0 +1,184 @@
+
+.Superior{
+    display: flex;
+    padding-left: 3em;
+    gap: 3em;
+    padding-right: 2em;
+}
+.Inferior{
+    display: flex;
+    padding-left: 3em;
+    gap: 3em;
+}
+.Pesquisacampo {
+    border: 2px solid transparent;
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    outline: none;
+    transition: border 0.3s;
+    border-radius: 10px;
+}
+.Pesquisacampo:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.BarraBusca {
+    display: flex;
+    gap: 1em;
+    flex: 1;
+}
+.MeuPerfil {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: #F6F6F6;
+    border-radius: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 1em;
+    font-weight: bold;
+}
+.Busca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    gap: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 4em;
+}
+.Tamanholivro{
+    width: 16em;
+    height: 350px;
+}
+.TituloLivro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+.InformacaoAutor{
+    width: 16em;
+}
+.Autor{
+    display: flex;
+    background-color: #F6F6F6;
+    align-items: center;
+    border-radius: 3em;
+    width: 80%;
+    margin-top: 2em;
+}
+.FotoAutor{
+    width: 4em;
+    height: 4em;
+    border-radius: 3em;
+}
+.NomeAno{
+    font-size: 1em;
+    color: #8A8A8A;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.NomeAutor{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    padding-left: 1em;
+    font-weight: 700;
+    color: #000000;
+}
+.PrincipaisObras{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300; 
+}
+.InformacoesLivro{
+    display: flex;
+    width: 110vh;
+    justify-content: space-evenly;
+    background-color: #EEEEEF;
+    padding: 1em;
+}
+.alinhamento{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ImagemInformacoes{
+    width: 45px;
+    height: 45px;
+}
+.LinhaSeparacao {
+    margin-top: 4em;
+  }
+.TextoInformacoes{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #03151E;
+}
+.NotaLivro{
+    border-bottom: 1px solid #8A8A8A;
+    padding-bottom: 1em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.DescricaoLivro{
+    font-size: 1em;
+    font-weight: 300;
+    color: #03151E;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2.5em;
+}
+.LinhaInformacoes{
+    border: 1px solid rgb(148, 145, 145);
+    font-weight: 100;
+}
+.carrossel-container {
+    padding: 1em;
+    margin-top: 3em;
+    border-top: 1px solid #8A8A8A;
+  }
+  
+  .carrossel-container h2 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-bottom: 1em;
+  }
+  
+  .carrossel {
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+    padding-bottom: 1em;
+    justify-content: space-around;
+  }
+  
+  .livro-card-carrossel {
+    flex: 0 0 auto;
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .livro-imagem-carrossel {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .livro-card-carrossel h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #8A8A8A;
+  }
+  
+  .livro-card-carrossel p {
+    font-size: 0.9em;
+    color: #777;
+  }

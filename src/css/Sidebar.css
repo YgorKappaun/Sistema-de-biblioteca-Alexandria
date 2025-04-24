@@ -1,0 +1,31 @@
+.Sidebar {
+    background-color: #F6F6F6;
+    font-family: 'Roboto', sans-serif;
+    width: 18%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.Logo{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ListaMenus{
+    padding-top: 2.5em;
+    font-size: 16px;
+    color: #03151E;
+    list-style: none;
+    
+}
+.Opcoes{
+    padding: 0.7em;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.Opcoes:hover{
+    background-color: #ffff;
+}
