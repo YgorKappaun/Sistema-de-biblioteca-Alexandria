@@ -15,4 +15,4 @@
 * GIT<br>
 * FIGMA<br>
 * REACT<br>
-* Javascript<br>
+* JAVASCRIPT<br>
