@@ -6,7 +6,7 @@
 
 <h3>📁 Acesso ao projeto:</h3>
 
-<p>pode estar acessando o projeto por meio <a href="https://sistema-de-biblioteca-alexandria.vercel.app/visualizalivro/6" target="_blank">deste link</p>
+<p>pode estar acessando o projeto por meio <a href="https://sistema-de-biblioteca-alexandria.vercel.app" target="_blank">deste link</p>
 
 <h3>Técnologias utilizadas:</h3>
 
