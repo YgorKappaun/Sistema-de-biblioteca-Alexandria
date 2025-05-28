@@ -44,7 +44,7 @@ function VisualizaLivro() {
         <div>
           <img src={livroAtual.imagem} alt={livroAtual.titulo} className='Tamanholivro' />
         </div>
-        <div>
+        <div className='InformacoesLivros'>
           <div>
             <h2 className='TituloLivro'>{livroAtual.titulo}</h2>
             <p className='NomeAno'>{livroAtual.autor} - {livroAtual.anoPublicacao}</p>
@@ -52,6 +52,12 @@ function VisualizaLivro() {
           </div>
           <p className='DescricaoLivro'>{livroAtual.descricao}</p>
         </div>
+        <div className='DivEmprestimo'>
+            <h3 className='Emprestimo'>Empréstimo</h3>
+            <p className='ItemEmEstoque'>EM ESTOQUE</p>
+            <button className="Favorito">Adicionar aos favoritos</button>
+            <button className='Reservar'>Reservar Livro</button>
+          </div>
       </div>
       <div className='LinhaSeparacao'></div>
       <div className='Inferior'>

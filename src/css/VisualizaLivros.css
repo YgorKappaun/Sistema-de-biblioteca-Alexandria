@@ -51,12 +51,12 @@
     margin-bottom: 4em;
 }
 .Tamanholivro{
-    width: 16em;
-    height: 350px;
+    width: 200px;
+    height: 300px;
 }
 .TituloLivro{
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 1.8em;
     font-weight: 600;
 }
 .InformacaoAutor{
@@ -126,11 +126,13 @@
     font-family: 'Roboto', sans-serif;
 }
 .DescricaoLivro{
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 300;
     color: #03151E;
     font-family: 'Roboto', sans-serif;
     padding-top: 2.5em;
+}
+.InformacoesLivros{
 }
 .LinhaInformacoes{
     border: 1px solid rgb(148, 145, 145);
@@ -181,4 +183,54 @@
   .livro-card-carrossel p {
     font-size: 0.9em;
     color: #777;
+  }
+  .DivEmprestimo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 1.5em;
+  }
+  .Emprestimo{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+  .Favorito{
+    color: #FEFEFE;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: #4BC1D2;
+    border-radius: 0.7em;
+    width: 100%;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    border: none;
+  }
+  .Favorito:hover{
+    background-color: #32a0b1;
+  }
+  .Reservar{
+    color: #FEFEFE;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: #4BD29C;
+    border-radius: 0.7em;
+    width: 100%;
+    padding: 0.4em;
+    border: none;
+  }
+  .Reservar:hover{
+    background-color: #39b281;
+  }
+  .ItemEmEstoque{
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
   }
