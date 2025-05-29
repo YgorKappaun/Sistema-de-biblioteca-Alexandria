@@ -10,22 +10,6 @@
     gap: 1em;
     flex: 1;
 }
-.MeuPerfil {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    background-color: #F6F6F6;
-    border-radius: 3em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    padding-left: 1em;
-    font-weight: bold;
-}
-.ImagemMeuPerfil{
-    width: 40px;
-    height: 40px;
-    border-radius: 2em;
-}
 .Pesquisaimg{
     width: 25px;
     height: 25px;

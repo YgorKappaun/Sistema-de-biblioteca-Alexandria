@@ -3,6 +3,7 @@ import { useLocation, useParams, useNavigate } from 'react-router-dom';
 import livrosMock from '../components/arraylivros';
 import '../css/VisualizaLivros.css';
 import Layout from '../components/Layout';
+import MenuSimples from '../components/MenuUsuario';
 
 function VisualizaLivro() {
 
@@ -28,17 +29,14 @@ function VisualizaLivro() {
     <Layout>
       <div className='Busca'>
         <div className='BarraBusca'>
-          <img src="../Pesquisa.png" className="Pesquisaimg" alt="ícone pesquisa" />
-          <input
+            <img src="Pesquisa.png" className="Pesquisaimg" alt="ícone pesquisa" />
+            <input
             type="text"
             placeholder="Começar a procurar..."
             className='Pesquisacampo'
-          />
+            />
         </div>
-        <div className='MeuPerfil'>
-          <p>Moretto</p>
-          <img src="/Moretto.png" className='ImagemMeuPerfil' alt="Meu Perfil" />
-        </div>
+        <MenuSimples/>
       </div>
       <div className='Superior'>
         <div>

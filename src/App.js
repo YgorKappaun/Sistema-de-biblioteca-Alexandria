@@ -5,6 +5,8 @@ import VisualizaLivro from './pages/VisualizaLivros';
 import CadastraLivro from './pages/CadastraLivros';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+import MeuPerfil from './pages/MeuPerfil';
+import MeusEmprestimos from './pages/MeusEmprestimos';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Route path="/cadastralivro" element={<CadastraLivro />} />
       <Route path="/login" element={<Login />}/>
       <Route path="/cadastro" element={<Cadastro />}/>
+      <Route path="/meuperfil" element={<MeuPerfil />}/>
+      <Route path="/meusemprestimos" element={<MeusEmprestimos />}/>
     </Routes>
   );
 }

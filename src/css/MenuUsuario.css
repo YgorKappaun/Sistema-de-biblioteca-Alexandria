@@ -1,0 +1,50 @@
+.MenuContainerPerfil {
+  position: relative;
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+.MenuContainerPerfil button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.MenuDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0.5em;
+  z-index: 1000;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  box-shadow: 0 0px 21px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 0.5em;
+  padding-right: 3em;
+  font-size: 0.9em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.Hovermenu:hover{
+    color: rgb(93, 87, 87);
+}
+.LogOut{
+    color: red;
+}
+.LogOut:hover{
+    color: rgb(158, 0, 0);
+}
+.MeuPerfil {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ImagemMeuPerfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 2em;
+}

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Layout from '../components/Layout';
 import livrosMock from '../components/arraylivros';
+import MenuSimples from '../components/MenuUsuario';
 import '../css/Home.css';
 
 function Home() {
@@ -19,7 +20,6 @@ function Home() {
 
   return (
     <Layout>
-        
       <div className='Busca'>
         <div className='BarraBusca'>
             <img src="./Pesquisa.png" className="Pesquisaimg" alt="ícone pesquisa" />
@@ -31,10 +31,7 @@ function Home() {
             onChange={(e) => setBusca(e.target.value)}
             />
         </div>
-        <div className='MeuPerfil'>
-            <p>Moretto</p>
-            <img src="/Moretto.png" className='ImagemMeuPerfil'/>
-        </div>
+        <MenuSimples/>
       </div>
 
       <div className="livros-container">
