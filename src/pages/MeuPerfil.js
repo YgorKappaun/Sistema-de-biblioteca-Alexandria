@@ -22,12 +22,6 @@ function MeuPerfil(){
         <div>
             <div className='Busca'>
                 <div className='BarraBusca'>
-                    <img src="./Pesquisa.png" className="Pesquisaimg" alt="ícone pesquisa" />
-                    <input
-                    type="text"
-                    placeholder="Começar a procurar..."
-                    className='Pesquisacampo'
-                    />
                 </div>
                 <MenuSimples/>
             </div>

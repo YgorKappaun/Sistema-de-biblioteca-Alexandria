@@ -1,0 +1,55 @@
+.MeusEmprestimos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    padding-left: 1em;
+}
+.LivrosEmprestimo{
+    display: flex;
+    gap: 2em;
+    padding-left: 2em;
+    border-top: 1px solid #8A8A8A;
+    padding-top: 2em;
+    align-items: center;
+}
+.ImagemLivro{
+    width: 220px;
+    height: 300px;
+}
+.TituloLivroEmprestimo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.AutoreAno{
+    font-size: 1em;
+    color: #8A8A8A;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.DescricaoEmprestimo{
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #03151E;
+    font-family: 'Roboto', sans-serif;
+}
+.InformacoesLivrosEmprestimo{
+    display: flex;
+}
+.InformacoesLivros{
+    width: 75%;
+}
+.StatusEmprestimo{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #03151E;
+    font-family: 'Roboto', sans-serif;
+}
+.NotaeData{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+}

@@ -25,6 +25,32 @@
     border: none;
     box-shadow: none;
 }
+.ResultadosBusca {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+.ResultadosBusca{
+  width: 65%;
+  margin-top: 15em;
+  font-family: 'Roboto', sans-serif;
+}
+.ItemResultado {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  gap: 1em;
+}
+.ImagemResultado {
+  width: 80px;
+  height: 120px;
+  margin-right: 10px;
+}
 .BarraBusca {
     display: flex;
     gap: 1em;
