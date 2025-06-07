@@ -1,0 +1,53 @@
+.ButtonCadastros{
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1em;
+    border: none;
+    font-weight: 500;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.ButtonCadastros:hover{
+    box-shadow: none;
+}
+.CadastroLivro, .CadastroAutor{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 4em;
+    margin-bottom: 3em;
+}
+.CadastrosTitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+.MarginButton{
+    margin-bottom: 1em;
+}
+.InputdeCadastros{
+    border: 2px solid #DEDEDE;
+    padding: 0.8em;
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    outline: none;
+    transition: border 0.3s;
+    border-radius: 10px;
+}
+.input-escondido {
+  display: none;
+}
+.botao-upload {
+    background-color: #DEDEDE;
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1em;
+    border: none;
+    font-weight: 500;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.botao-upload:hover {
+  background-color: #918f8f;
+}

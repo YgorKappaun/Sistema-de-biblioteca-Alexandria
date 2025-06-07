@@ -20,6 +20,7 @@ function MenuSimples() {
           <Link to="/" className='Hovermenu'>Home</Link>
           <Link to="/meuperfil" className='Hovermenu'>Meu Perfil</Link>
           <Link to="/meusemprestimos" className='Hovermenu'>Emprestimos</Link>
+          <Link to="/telacadastros" className='Hovermenu'>Cadastros</Link>
           <Link to="/login" className='LogOut'>LogOut</Link>
         </div>
       )}
